@@ -21,8 +21,8 @@ const getCountryData = (name) => {
         <p class="country-currency">💰 ${countryData.currencies[0].name}</p>
         <p class="country-lang">🗣️ ${countryData.languages[0].name}</p>
         </div>`;
-      cardContainer.innerHTML = ''
-      cardContainer.insertAdjacentHTML("beforeend", html);
+      cardContainer.innerHTML = html
+//       cardContainer.insertAdjacentHTML("beforeend", html);
     });
 };
 
